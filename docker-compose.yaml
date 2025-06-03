@@ -19,7 +19,7 @@ services:
       - "5000:5000"
     depends_on:
       - mongodb
-    environment:
+    env_file:
       - ./backend/.env.docker
     networks:
       - wanderlust
@@ -34,7 +34,7 @@ services:
       - backend
     networks:
       - wanderlust
-    environment:
+    env_file:
       - ./frontend/.env.docker
 
   redis:
