@@ -35,7 +35,7 @@ services:
     networks:
       - wanderlust
     environment:
-      - ./frontend/.env.docker
+      - VITE_API_PATH=http://43.204.114.14:5000
 
   redis:
     container_name: redis
