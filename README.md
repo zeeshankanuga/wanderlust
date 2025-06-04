@@ -1,5 +1,7 @@
 # 🌍 WanderLust – MERN Travel Blog Site with DevSecOps Pipeline 🚀
 
+![blog post](https://github.com/user-attachments/assets/931cd196-b149-4b6a-8a5a-7b2d3232b3b7)
+
 **WanderLust** is a full-stack **MERN (MongoDB, Express, React, Node.js)** based travel blog website designed to help users share and explore travel stories from around the world.
 
 This open-source project is ideal for those looking to contribute to real-world applications while learning about full-stack development, Docker, CI/CD, and DevSecOps practices.
